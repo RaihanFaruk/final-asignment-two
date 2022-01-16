@@ -24,6 +24,7 @@ full container
 .influencer {
   display: flex;
 }
+
 .influncer img {
   width: 380px;
   height: 380px;
@@ -139,7 +140,8 @@ footer {
   }
   .influencer,
   .half-width,
-  .image-container {
+  .image-container,
+  .first-influncer {
     flex-direction: column;
   }
   .influncer img {
@@ -159,7 +161,8 @@ footer {
   }
   .influencer,
   .half-width,
-  .image-container {
+  .image-container,
+  .first-influncer {
     flex-direction: column;
   }
   .influncer img {
