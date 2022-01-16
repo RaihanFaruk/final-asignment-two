@@ -115,6 +115,7 @@ hr {
   margin: 5px;
 }
 .desighn {
+  display: flex;
   margin: 100px;
 }
 footer {
@@ -131,33 +132,41 @@ footer {
 @media only screen and (max-width: 688px) {
   .full-container {
     width: 100%;
+    align-items: center;
   }
-  .desighn,
+
   .section-one,
   .grid-section,
   .image-container {
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
   }
+
+  .desighn,
   .influencer,
   .half-width,
   .image-container,
   .first-influncer {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
-  .influncer img {
-    width: 400px;
+  .first-influncer img {
+    margin-top: 50px;
+    width: 300px;
   }
 }
 /* ----------Tablet Device  */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
   .full-container {
     width: 100%;
+    align-items: center;
   }
-  .desighn,
   .section-one,
   .grid-section,
   .image-container {
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
   }
   .influencer,
   .half-width,
